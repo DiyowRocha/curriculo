@@ -21,6 +21,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #ebebff;
 }
 
@@ -97,6 +98,7 @@ header{
 
 .content p{
     width: 100%;
+    max-width: 900px;
 }
 
 .h4-color{
@@ -150,4 +152,29 @@ header{
 .list1, .list2{
     width: 30%;
     margin-left: 55px;
+}
+
+@media (max-width: 768px){
+    
+    .content h4{
+        width: 90%;
+    }
+
+    .bar{
+        display: none;
+    }
+
+    .content p{
+        width: 95%;
+    }
+
+    .title{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 320px){
+    .photo img{
+        width: 130px;
+    }
 }
