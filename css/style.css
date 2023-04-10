@@ -8,6 +8,7 @@
 body{
     box-shadow: 1px 1px 15px #000;
     max-width: 1080px;
+    min-width: 320px;
     margin: auto;
     border-radius: 10px;
 }
@@ -167,7 +168,7 @@ header{
     }
 
     .content p{
-        width: 95%;
+        width: 90%;
     }
 
     .title{
