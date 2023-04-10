@@ -177,4 +177,8 @@ header{
     .photo img{
         width: 130px;
     }
+    
+    .title{
+        margin-left: 5px;
+    }
 }
