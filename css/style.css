@@ -154,6 +154,8 @@ header{
     margin-left: 55px;
 }
 
+/*RESPONSIVE*/
+
 @media (max-width: 768px){
     
     .content h4{
